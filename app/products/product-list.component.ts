@@ -3,14 +3,14 @@ import { IProduct } from './product';
 import {Component,OnInit} from '@angular/core';
 
 @Component({
-    selector: 'pm-products',
+    
     templateUrl: 'app/products/product-list.component.html',
     styleUrls : ['app/products/product-list.component.css']
 })
 export class ProductListComponent implements OnInit{
 
     pageTitle: string = 'Product List'
-    imageWidth: number= 50;
+    imageWidth: number= 80;
     imageMargin : number = 2;
     showImage: boolean = false;
     listFilter: string;

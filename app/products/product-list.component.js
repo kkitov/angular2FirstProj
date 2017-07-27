@@ -15,7 +15,7 @@ var ProductListComponent = (function () {
     function ProductListComponent(_productService) {
         this._productService = _productService;
         this.pageTitle = 'Product List';
-        this.imageWidth = 50;
+        this.imageWidth = 80;
         this.imageMargin = 2;
         this.showImage = false;
         this.products = [];
@@ -35,7 +35,6 @@ var ProductListComponent = (function () {
 }());
 ProductListComponent = __decorate([
     core_1.Component({
-        selector: 'pm-products',
         templateUrl: 'app/products/product-list.component.html',
         styleUrls: ['app/products/product-list.component.css']
     }),
